@@ -1,0 +1,5 @@
+n = int(input())
+arr = list(map(int, input().split()))
+#result = sorted (list(dict.fromkeys(arr)))
+#print(result[len(result)-2])
+print( max( [i for i in arr if i < max(arr)] ) )
